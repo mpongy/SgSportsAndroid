@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sgsports</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add_game">Add Game</string>
+    <string name="action_search_game">Search Game</string>
+    <string name="action_settings">Log in</string>
+    <string name="add_label">Add Games</string>
+    <string name="add_content">Hello Add!</string>
+    <string name="getSoccer">Get Soccer</string>
+    <string name="gameview_label">View Game</string>
+    <string name="search_label">Search for Games</string>
+    <string name="search_content">Hello Search!</string>
+    <string name="settings_label">Log in</string>
+    <string name="settings_content">Hello Settings!</string>
+    <string name="login_label">Log in here</string>
+    <string name="allview_label">All Games</string>
+    <string name="footballview_label">Football Games</string>
+    <string name="basketballview_label">Basketball Games</string>
+    <string name="badmintonview_label">Badminton Games</string>
+    <string name="tennisview_label">Tennis Games</string>
+    <string name="volleyballview_label">Volleyball Games</string>
+    <string name="hockeyview_label">Hockey Games</string>
+    <string name="login_content">Hello Settings!</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="Login">Login:</string>
+    <string name="attempts">Attempts Left:</string>
+    <string name="inputDate">Date: DDMMYY</string>
+    <string name="inputGameName">Type of Sport:</string>
+    <string name="inputTimeStart">Start time: HHMM in 24-hour format</string>
+    <string name="inputTimeEnd">End time: HHMM in 24-hour format</string>
+    <string name="inputMapLat">Latitude:</string>
+    <string name="inputMapLng">Longitude:</string>
+    <string name="inputMinPlayers">Min no. of Players needed:</string>
+    <string name="inputMaxPlayers">Maximum no. of players:</string>
+    <string name="inputCurrentPlayers">Current no. of players:</string>
+    <string name="addGame">Attempts Left:</string>
+
+    <string-array name="game_array">
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Badminton</item>
+        <item>Tennis</item>
+        <item>Volleyball</item>
+        <item>Hockey</item>
+    </string-array>
+    <string-array name="location_array">
+        <item>Bishan Stadium</item>
+        <item>Choa Chu Kang Stadium</item>
+        <item>Clementi Stadium</item>
+        <item>National Stadium</item>
+        <item>Serangoon Stadium</item>
+        <item>Tampines Stadium</item>
+        <item>Yio Chu Kang Stadium</item>
+        <item>Yishun Stadium</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.sgsports.MainActivity" >
+    
+    <item
+        android:id="@+id/action_add_game"
+        android:title="@string/action_add_game"
+        app:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_search_game"
+        android:title="@string/action_search_game"
+        app:showAsAction="always"/>
+        
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="always"/>
+    
+</menu>

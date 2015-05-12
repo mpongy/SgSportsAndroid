@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/ImageButton07"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="viewAll"
+            android:text="@string/allview_label" 
+            android:drawableLeft="@drawable/all"/>
+ 
+
+        <Button
+            android:id="@+id/ImageButton06"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="viewFootball"
+            android:text="@string/footballview_label"
+            android:drawableLeft="@drawable/football"/>
+
+        <Button
+            android:id="@+id/ImageButton05"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="viewBasketball"
+            android:text="@string/basketballview_label"
+            android:drawableLeft="@drawable/basketball"/>
+
+        <Button
+            android:id="@+id/ImageButton04"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="viewBadminton"
+            android:text="@string/badmintonview_label"
+            android:drawableLeft="@drawable/badminton"/>
+
+        <Button
+            android:id="@+id/ImageButton03"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="viewTennis"
+            android:text="@string/tennisview_label"
+            android:drawableLeft="@drawable/tennis"/>
+
+        <Button
+            android:id="@+id/ImageButton01"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="viewVolleyball"
+            android:text="@string/volleyballview_label"
+            android:drawableLeft="@drawable/volleyball"/>
+
+        <Button
+            android:id="@+id/ImageButton02"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="viewHockey"
+            android:text="@string/hockeyview_label"
+            android:drawableLeft="@drawable/hockey"/>
+    </LinearLayout>
+
+</ScrollView>
